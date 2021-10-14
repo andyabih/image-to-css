@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image to CSS</title>
+    
+    <style>
+        body {
+            display: grid;
+            grid-template-columns: 200px 200px;
+            grid-gap: 20px;
+        }
+
+        #css-img {
+            height: 0;
+            width: 0;
+        }
+    </style>
+</head>
+<body>
+    <img src="./joe.jpeg" id="image" width='200' height='200' />
+
+    <div>
+        <div id='css-img'></div>
+    </div>
+    <script src='script.js'></script>
+</body>
+</html>
